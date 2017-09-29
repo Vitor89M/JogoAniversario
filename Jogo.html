@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="regras.css">
+</head>
+<body>
+
+
+<script type="text/javascript">
+
+	function alertaErrada(){
+		alert("Ooops... Você errou, tente novamente!", "Cor Errada...")
+	}
+	
+	function alertaCorreto(){
+		alert("Parabéns... Você acertou!")
+	}
+	
+	function errou1(){
+		alert("Ahhhh... Você errou espertinha, tente novamente!")
+	}
+	
+	function errou2(){
+		alert("Está esquentando... Tente novamente!")
+	}
+	
+	function errou3(){
+		alert("Você só pode estar de Brincation with me!")
+	}
+	
+	function acertou(){
+		alert("Acertouuuuu miseravi... Esse é o seu príncipe!")
+	}
+	
+	
+	/* Essa Função Apenas Oculta */
+	function ocultar() {
+ 	var x = document.getElementById('primeiroBotoes');
+	x.style.display = 'none';
+	}
+	
+	function ocultarSegundo() {
+ 	var x = document.getElementById('divBotoes2');
+	x.style.display = 'none';
+	}
+	
+	function ocultarCeu() {
+ 	var x = document.getElementById('ceu');
+	x.style.display = 'none';
+	}
+	
+	/* Essa Função Apenas Mostra */
+	function mostrar() {
+ 	var x = document.getElementById('divBotoes2');
+	x.style.display = 'block';
+}
+
+	function mostrarImagem() {
+ 	var x = document.getElementById('ultimaImagem');
+	x.style.display = 'block';
+}
+
+</script>
+<img src="céu-azul.jpg" id="ceu" class="imagem" >
+
+<div id="primeiroBotoes" > 
+	<button id="btnVerde" class="botao" onClick="alertaErrada()"></button>
+	<button id="btnLaranja" class="botao2" onClick="alertaErrada()"></button>
+	<button id="btnAzul" class="botao3" onClick="alertaCorreto();ocultar();mostrar()"></button>			    <button id="btnRoxo" class="botao4" onClick="alertaErrada()"></button>
+	<h1 class="texto">  Qual a minha cor Preferida?</h1>
+</div>
+
+<div id="divBotoes2" style="display:none">
+	<button  id="button" class="btnCaua" onClick="errou1()"></button>
+	<button  id="button" class="btnWill" onClick="errou2()"></button>
+	<button  id="button" class="btnBean" onClick="errou3()"></button>
+	<button  id="button" class="btnVitor" onClick="acertou();ocultarSegundo();ocultarCeu();mostrarImagem();document.getElementById('demo').play()"></button>
+    <h1 class="texto">  Quem é mais bonito?</h1>
+</div>
+
+<div id="ultimaImagem" style="display: none">
+
+	<img src="imagem_feliz_aniversario1.jpg" class="imagemFeliz" >
+	<audio id="demo" src="musicamp3.mp3"></audio>
+</div>
+
+</div>
+</body>
+</html>
