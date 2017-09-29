@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+.botao {
+	position: absolute;
+	top: 350px; 
+	left: 0; 
+	background-color: #228B22;
+	width: 100px; 
+	height: 100px;
+	margin-left: 500px;
+	margin-top: -120px;
+}
+
+.botao2 {
+	position: absolute;
+	top: 350px; 
+	left: 0; 
+	background-color: #FF4500;
+	width: 100px; 
+	height: 100px;
+	margin-left: 790px;
+	margin-top: -120px;
+
+}
+
+.botao3 {
+	position: absolute;
+	top: 350px; 
+	left: 0; 
+	background-color: #0000FF;
+	width: 100px; 
+	height: 100px;
+	margin-left: 500px;
+	margin-top: 0px;
+}
+
+.botao4 {
+	position: absolute;
+	top: 350px; 
+	left: 0; 
+	background-color: #551A8B;
+	width: 100px; 
+	height: 100px;
+	margin-left: 790px;
+	margin-top: 	0px;
+}
+
+.imagem {
+	margin-left: 350px;
+	margin-top: 150px;
+	position: relative; 
+}
+.imagemFeliz{
+	margin-left: 350px;
+	margin-top: 150px;
+	position: relative;
+}
+
+.texto{
+	position: absolute;
+	margin-left: 490px;
+	margin-top: -50px;
+}
+
+.btnCaua{
+	position: absolute;
+	top: 333px;
+	left: -21px;
+	background: url(Caua.jpg) no-repeat;
+	width: 100px;
+	height: 100px;
+	margin-left: 500px;
+	margin-top: -120px;
+}
+
+ .btnWill {
+	position: absolute;
+	top: 335px;
+	left: -40px;
+	background: url(Will.jpg) no-repeat;
+	width: 100px;
+	height: 100px;
+	margin-left: 790px;
+	margin-top: -120px;
+}
+
+ .btnBean {
+	position: absolute;
+	top: 355px;
+	left: -24px;
+	background: url(Bean.jpg);
+	width: 100px;
+	height: 100px;
+	margin-left: 500px;
+	margin-top: 0px;
+}
+
+
+ .btnVitor {
+	position: absolute;
+	top: 359px;
+	left: 248px;
+	background: url(Eu.jpg);
+	width: 100px;
+	height: 100px;
+	margin-left: 500px;
+	margin-top: 0px;
+ }
